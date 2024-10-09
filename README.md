@@ -11,7 +11,8 @@ def generate_password(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
     
     # Select `length` random characters from the character set above
-    password = ''.join(random.choice(characters) for _ in range(length))
+    password = ''.join(random.choice(characters) 
+    for _ in range(length))
     
     return password
 ```
