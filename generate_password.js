@@ -8,7 +8,7 @@ let password = '';
 for (let i = 0; i < length; i++) {
 // define result and add all the characters together, before that .charAt takes a given position and returns that character
 // then it floors the number and randomizes it, then it multiplies by the characters length
-    password += character.charAt(Math.floor(Math.random() * chracters.length));
+    password += character.charAt(Math.floor(Math.random() * characters.length));
     }
 // return the function password
     return password;
