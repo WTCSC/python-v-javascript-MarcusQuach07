@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16455417)
 # Python v JavaScript: Dawn of JStice
 
 For this assignment, your task is to convert the following Python code to JavaScript:
@@ -10,7 +11,8 @@ def generate_password(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
     
     # Select `length` random characters from the character set above
-    password = ''.join(random.choice(characters) for _ in range(length))
+    password = ''.join(random.choice(characters) 
+    for _ in range(length))
     
     return password
 ```
