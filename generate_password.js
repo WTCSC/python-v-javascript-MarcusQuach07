@@ -1,7 +1,7 @@
 // Create a function named generatepassword and set the length to 12
 function generatePassword(length = 12) {
 // Make a constant named characters and input a list of numbers and characters with a _
-const character = 'POIUYTREWQLKJHGFDSAMNBVCXZpoiuytrewqlkjhgfdsamnbvcxz0987654321_';
+const character = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_';
 // let password be a empty list
 let password = '';
 // Create a for loop and let i = 0 but the i is less than length and keep adding to i
